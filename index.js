@@ -59,7 +59,7 @@ async function updateLeetCodeGist(leetcode) {
             gist_id: gist_id,
             files: {
                 [filename]: {
-                    filename: `💻 My LeetCode Stats ✨`,
+                    filename: `💻 My LeetCode Stats`,
                     content: lines.join("\n")
                 }
             }
