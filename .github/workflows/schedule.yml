@@ -2,8 +2,6 @@ name: Update LeetCode gist
 on:
   schedule:
     - cron: '0 0 * * *'
-  push:
-    branches: main
   workflow_dispatch:
     
 jobs:
