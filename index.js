@@ -47,7 +47,7 @@ async function updateLeetCodeGist(leetcode) {
             difficulty.padEnd(10),
             solvedRadio.padEnd(10),
             generateBarChart(acceptedRate, 21),
-            String(acceptedRate.toFixed(1)).padStart(10) + "%"
+            String(acceptedRate.toFixed(1)).padStart(7) + "%"
         ]
         lines.push(line.join(" "))
     }
