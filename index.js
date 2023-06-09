@@ -33,8 +33,8 @@ async function updateLeetCodeGist(leetcode) {
 
     const title = [
         "Difficulty".padEnd(10),
-        "Solved".padEnd(9),
-        "Accepted Rate".padEnd(8)
+        "Solved".padEnd(10),
+        "Accepted Rate".padEnd(10)
     ]
     lines.push(title.join(" "))
 
